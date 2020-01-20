@@ -17,7 +17,7 @@ public class EntityHandler
         
         EntityRegistry.registerGlobalEntityID(entityClass, string, EntityRegistry.findGlobalUniqueEntityId(), new Color(0, 221, 243).getRGB(), new Color(243, 0, 0).getRGB());
         EntityRegistry.addSpawn(string, 40, 5, 10, EnumCreatureType.monster, BiomeGenBase.beach, BiomeGenBase.desert, BiomeGenBase.plains);
-        EntityRegistry.registerModEntity(entityClass, string, entiyID, ModTuto.instance, 64, 1, true);
+        EntityRegistry.registerModEntity(entityClass, string, entityID, ModTuto.instance, 64, 1, true);
     }
     
     public static void registerAmbiants(Class entityClass, String string)
